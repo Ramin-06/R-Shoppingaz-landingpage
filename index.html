@@ -63,17 +63,21 @@
         }
 
         .logo-box img {
-            width: 100%;
-            max-width: 170px; /* Mobil üçün ideal ölçü */
-            height: 20;
-            aspect-ratio: 1 / 1;
-            object-fit: contain; /* Kəsilmənin qarşısını alan kod */
-            background: white;
-            padding: 15px; /* Loqonun kənarlara toxunmaması üçün */
-            border-radius: 25px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-            margin-bottom: 20px;
-        }
+    width: 100%;
+    max-width: 170px; /* Eni olduğu kimi saxladıq */
+    height: auto;
+    /* aspect-ratio: 1 / 1;  <-- BU SƏTRİ SİLDİK */
+    object-fit: contain;
+    background: white;
+    
+    /* Bura diqqət: 5px yuxarı-aşağı boşluqdur, 15px sağ-sol. 
+       Əgər ağlıq hələ də çoxdursa, 5px-i 2px-ə endirə bilərsən. */
+    padding: 5px 15px; 
+    
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
 
         .logo-box h3 { margin: 10px 0 5px 0; font-size: 22px; letter-spacing: 1px; }
         .logo-box span { font-size: 12px; opacity: 0.8; text-transform: uppercase; }
@@ -171,7 +175,7 @@
             </div>
 
             <h1>Xoş Gəlmisiniz!</h1>
-            <p>1000-ə yaxın eksklüziv ətir çeşidini kəşf etmək üçün sayta daxil olun və ya tətbiqimizi yükləyərək 10% endirim qazanın.</p>
+            <p>300-ə yaxın eksklüziv ətir çeşidini kəşf etmək üçün sayta daxil olun və ya tətbiqimizi yükləyərək 10% endirim qazanın.</p>
 
             <div class="btn-group">
                 <a href="https://ramin-06.github.io/R-shoppingaz/" class="btn btn-web">
