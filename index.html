@@ -64,18 +64,13 @@
 
         .logo-box img {
     width: 100%;
-    max-width: 170px; /* Eni olduğu kimi saxladıq */
+    max-width: 170px;
     height: auto;
-    /* aspect-ratio: 1 / 1;  <-- BU SƏTRİ SİLDİK */
     object-fit: contain;
-    background: white;
-    
-    /* Bura diqqət: 5px yuxarı-aşağı boşluqdur, 15px sağ-sol. 
-       Əgər ağlıq hələ də çoxdursa, 5px-i 2px-ə endirə bilərsən. */
-    padding: 5px 15px; 
-    
-    border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    /* Əgər loqonun ağ qutuda görünməsini istəmirsənsə, aşağıdakı 3 sətri silə və ya belə saxlaya bilərsən */
+    background: transparent; /* Ağ fonu sildik */
+    padding: 0;             /* Boşluğu sildik */
+    box-shadow: none;       /* Kölgəni sildik ki, loqo havada təmiz qalsın */
     margin-bottom: 10px;
 }
 
@@ -162,9 +157,8 @@
     <div class="hero-card">
         <div class="hero-image">
             <div class="logo-box">
-                <img src="https://raw.githubusercontent.com/Ramin-06/R-Shoppingaz/main/logo_baslig.png" alt="R-Shoppingaz Logo">
-                 <span>Zövqünüzü tamamlayan ideal qoxunu 
-                    bizimlə kəşf edin!.</span>
+                <img src="logo.png" alt="VELO AI LOGO">
+                 <span>Velo, sadece kurmaz; inşa eder.</span>
             </div>
         </div>
 
@@ -177,19 +171,19 @@
 
             <h1>Xoş Gəlmisiniz!</h1>
             
-            <p>300-ə yaxın eksklüziv ətir çeşidini kəşf etmək üçün sayta daxil olun və ya tətbiqimizi yükləyərək parfümləri cibinizdə daşıyın.</p>
+            <p>VELO AI. E-Commerce Agency ilə həm e-ticarət mağazasına sahib ola bilər, həm də R-Shoppingaz e-ticarət parfüm mağazasına keçid edərək alış veriş edə bilərsiniz.</p>
             
             <div class="btn-group">
                 <a href="https://ramin-06.github.io/VELOA-/index.html" class="btn btn-web">
-                    <i class="fas fa-globe"></i>VELO AI  | E-Commerce Agency </a>
+                    <i class="fas fa-globe"></i>VELO AI | E-Commerce Agency </a>
 
                 
                 <a href="https://ramin-06.github.io/R-shoppingaz/" class="btn btn-web">
-                    <i class="fas fa-globe"></i>Sayta daxil ol</a>
+                    <i class="fas fa-globe"></i>R-Shoppingaz site</a>
 
                 <a href="https://github.com/Ramin-06/APK/releases/download/1.0.4/1.0.4.apk" 
    class="btn btn-apk">
-    <i class="fab fa-android"></i> APK-nı yüklə</a>
+    <i class="fab fa-android"></i> R-Shoppingaz | APK-nı yüklə</a>
             </div>
 
             <div class="footer-note">
